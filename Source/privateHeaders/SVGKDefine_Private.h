@@ -14,7 +14,7 @@ SVGKDefine define some common macro used for private header.
 #define SVGKIT_LOG_CONTEXT 556
 
 #define SVGKitLogError(frmt, ...)   NSLog((frmt), ##__VA_ARGS__)
-#define SVGKitLogWarn(frmt, ...)    NSLog((frmt), ##__VA_ARGS__)
+#define SVGKitLogWarn(frmt, ...)    
 #define SVGKitLogInfo(frmt, ...)    
 #define SVGKitLogDebug(frmt, ...)   
 #define SVGKitLogVerbose(frmt, ...) 
