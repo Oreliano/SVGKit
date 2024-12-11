@@ -43,6 +43,9 @@
 /*! This is used when generating CALayer objects, to store the id of the SVGElement that created the CALayer */
 #define kSVGElementIdentifier @"SVGElementIdentifier"
 
+/*! This is used when generating CALayer objects, to store the class of the SVGElement that created the CALayer */
+#define kSVGElementClass @"SVGElementClass"
+
 
 #pragma mark - SVG-spec supporting methods that aren't in the Spec itself
 
